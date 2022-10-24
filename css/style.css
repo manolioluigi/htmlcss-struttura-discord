@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Header*/
+
 .rowLogo{
     display: flex;
     flex-direction: row;
@@ -56,6 +58,9 @@
     padding: 5px;
 }
 
+/* Main e Footer */
+
+/*Container vari*/
 .container{
     width: 70%;
     margin: auto;
@@ -74,6 +79,8 @@
     padding-right: 15%;
     background-color: rgb(36, 36, 36);
 }
+
+/*Row varie*/
 
 .row{
     display: flex;
@@ -102,6 +109,8 @@
     width: 100%;
     padding: 20px 25px 0px 25px;
 }
+
+/*Column varie*/
 
 .columnSmall{
     width: 40%;
