@@ -4,12 +4,54 @@
     box-sizing: border-box;
 }
 
-header{
+.rowLogo{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    width: 100%;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.columnLogo{
+    width: 15%;
+    background-color: lightgreen;
+    height: 30px;
+    display: flex;
+    text-align: left
+}
+
+.columnMenu{
+    width: 40%;
+    background-color: chartreuse;
+    display: flex;
+    height: 30px;
+    text-align: center;
+}
+
+.columnLogin{
+    width: 15%;
+    background-color: coral;
+    text-align: right;
+    height: 30px;
+    display: flex;
+}
+
+.rowLogoText{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    width: 100%;
+    justify-content: center;
     background-color: blue;
 }
 
-.containerHeader{
-    width: 75%;
-    margin:auto;
+.columnLogoText{
     background-color: pink;
+    height: 300px;
+    width: 650px;
+}
+
+.rowLogo span{
+    padding: 5px;
 }
