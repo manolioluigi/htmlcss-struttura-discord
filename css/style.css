@@ -18,7 +18,7 @@
     background-color: lightgreen;
     height: 30px;
     display: flex;
-    text-align: left
+    justify-content: left;
 }
 
 .columnMenu{
@@ -26,13 +26,13 @@
     background-color: chartreuse;
     display: flex;
     height: 30px;
-    text-align: center;
+    justify-content: center;
 }
 
 .columnLogin{
     width: 15%;
     background-color: coral;
-    text-align: right;
+    justify-content: right;
     height: 30px;
     display: flex;
 }
@@ -55,3 +55,4 @@
 .rowLogo span{
     padding: 5px;
 }
+
